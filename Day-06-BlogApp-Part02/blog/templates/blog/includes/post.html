@@ -1,0 +1,13 @@
+<li>
+    <article class="post">
+        <a href="{% url "single-post-page" slug=post.slug %}">
+            <img src="" alt="Bryce's posts">
+        </a>
+        <div class="post__content">
+            <h3>{{ post.title }}</h3>
+            <p>
+                <a href="posts/{{ post.slug }}">{{ post.summary}}</a>
+            </p>
+        </div>
+    </article>
+</li>

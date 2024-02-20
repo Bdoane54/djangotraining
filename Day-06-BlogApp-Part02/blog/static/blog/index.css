@@ -1,0 +1,28 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.post {
+    background-color: lightblue;
+    border: 3px solid darkblue;
+}
+
+.post:hover {
+    background-color: lightgray;
+}
+
+h1 {
+    background-color: burlywood;
+    font-size: 20;
+    width: fit-content;
+}
+h2 {
+    background-color: antiquewhite;
+    width: fit-content
+}
+
+.all-posts {
+    background-color: coral;
+    font-size: 15;
+}
